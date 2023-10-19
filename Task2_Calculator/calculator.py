@@ -1,6 +1,5 @@
 # CodSoft python internship
 # Mostafa Khaled Mostafa
-# A5 Batch
 # calculator task
 
 # Features:
