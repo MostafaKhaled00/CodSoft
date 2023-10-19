@@ -2,20 +2,11 @@
 # Mostafa Khaled Mostafa
 # Rock Paper Scissors Game
 
-""" rock rock
-    paper paper
-    scissors scissors
-
-    rock paper
-    rock scissors
-    paper scissors
-
-
+"""
     rock beat scissors
     scissors beat paper
     paper beats rock
-
-    """
+"""
 
 import random
 
