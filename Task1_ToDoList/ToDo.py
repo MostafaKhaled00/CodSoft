@@ -27,25 +27,13 @@ def show_list():
 def add_task():
     added = input("Type your task: ")
     tasks.append(added)
-    # while True:
-    #     again = input("Would you like to add another task? (y/n) \n").lower()
-    #     if again == 'y':
-    #         added = input("Type your task: ")
-    #         tasks.append(added)
-    #     else:
-    #         break
 
 
 def remove_task():
     to_be_rem = int(input("Select the number of the task to be removed: ")) - 1
     if to_be_rem in range(0, len(tasks)):
         tasks.pop(to_be_rem)
-        # while True:
-        #     if (input("Would you like to remove another task? (y/n) ").lower() == 'y'):
-        #         to_be_rem = int(input("Select the number of the task to be removed: "))
-        #         tasks.pop(to_be_rem - 1)
-        #     else:
-        #         break
+
     else:
         print("Invalid task number!")
 
@@ -55,13 +43,7 @@ def update_task():
     if updated_num in range(0, len(tasks)):
         updated_task = input("Type your task: ")
         tasks[updated_num] = updated_task
-        # while True:
-        #     if (input("Would you like to update another task? (y/n) ").lower() == 'y'):
-        #         updated_num = int(input("\nSelect the number of the To-Do to be updated: "))
-        #         updated_task = input("Type your task: ")
-        #         tasks[updated_num - 1] = updated_task
-        #     else:
-        #         break
+
     else:
         print("Invalid task number!")
 
