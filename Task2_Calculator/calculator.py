@@ -5,7 +5,7 @@
 # Features:
 # 1. add / subtract
 # 2. multiply/divide
-# 3. handle zero
+# 3. handles zero
 
 
 def add(num1, num2):
